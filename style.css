@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Consolas"; /* may change later, though we do kinda like that font ~ae ~aa  */
+    src: url(/Consolas.ttf);
+  } /*
+@font-face {
+    font-family:"nasin-nanpa";
+    src: url(link);
+}*/
+
+body {
+/* change this later after thinking of a nice colour theme for stuffs ~ae ~aa */ 
+  margin:auto 
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Consolas; 
+}
+p, span, alt, details, summary { 
+  font-family: Consolas; 
+  text-align: left; 
+  color: white;
+}
+/* begin link things */
+a:link {
+  color: palevioletred;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: palevioletred;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: paleturquoise;
+  background-color: transparent;
+  text-decoration: none;
+} 
+
+.f88x31 {
+  image-rendering: pixelated;
+  width: 88px;
+  height: 31px;
+  
+}
+.interesting {
+  font-family: monospace;
+  border-radius: 2px;
+  padding: 2px;
+  border: 1px solid rgb(0, 0, 0);
+}
+/* end link thingies */ 
+
+.head { /* fancy things that get fully highlighted like headers and all that */ 
+  font-family: Consolas;
+  color: #a35; 
+  background-color:#c96094;
+  width:640px; 
+  margin-bottom:0px; 
+  margin-top:0px; 
+  border-left:3px solid #c96094;
+  padding:5px; 
+  /* padding-top:0px; */
+
+
+}
+
+.main { /* use this for like everything else */ 
+  font-family: Consolas;
+  color: #7d43f0; 
+  width:640px; 
+  margin-bottom:0px; 
+  margin-top:0px; 
+  border-left:3px solid #c96094;
+  padding-top:0px;
+  padding:5px; 
+  
+  
+}
+
+/*
+  .footnote {
+    vertical-align: super; 
+    font-size: 800%;
+  }
+  
+  */ 
