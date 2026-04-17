@@ -1,14 +1,16 @@
 @font-face {
     font-family: "Consolas"; /* may change later, though we do kinda like that font ~ae ~aa  */
     src: url(/Consolas.ttf);
-  } /*
-@font-face {
-    font-family:"nasin-nanpa";
-    src: url(link);
-}*/
+  } 
+@media (max-width: 640px) {
+    main {
+        width: 95%;
+            margin: 0px;
+              }
+              }
 
 body {
-/* change this later after thinking of a nice colour theme for stuffs ~ae ~aa */ 
+  
   margin:auto 
 }
 h1, h2, h3, h4, h5, h6 {
@@ -19,18 +21,24 @@ p, span, alt, details, summary {
   text-align: left; 
   color: white;
 }
+
 /* begin link things */
 a:link {
-  color: palevioletred;
+  color: #631cc9;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: palevioletred;
+  color: #9648ca;
   background-color: transparent;
   text-decoration: none;
 }
-a:hover, a:active {
+a:active {
+  color: paleturquoise;
+  background-color: transparent;
+  text-decoration: none;
+} 
+a:hover {
   color: paleturquoise;
   background-color: transparent;
   text-decoration: none;
@@ -40,7 +48,6 @@ a:hover, a:active {
   image-rendering: pixelated;
   width: 88px;
   height: 31px;
-  
 }
 .interesting {
   font-family: monospace;
@@ -60,7 +67,6 @@ a:hover, a:active {
   border-left:3px solid #c96094;
   padding:5px; 
   /* padding-top:0px; */
-
 
 }
 
