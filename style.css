@@ -4,15 +4,39 @@
   } 
 @media (max-width: 640px) {
     main {
-        width: 95%;
-            margin: 0px;
-              }
-              }
+    width: 95%;
+    margin: 0px;
+}}
+
+:root {
+  --font-colour: #7d43f0;
+/*  --bg-colour: 
+  --highlight-colour: 
+*/
+}
+
+
+
 
 body {
-  
-  margin:auto 
+  display:flex; 
 }
+
+main { /* use this for like everything else */ 
+  font-family: Consolas;
+  color: var(--font-colour); 
+  width:640px; 
+  margin-bottom:0px; 
+  margin-top:0px; 
+  margin-left:auto; 
+  margin-right:auto; 
+  border-left:3px solid #c96094; 
+  padding-top:0px; 
+  padding:5px; 
+  
+  
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Consolas; 
 }
@@ -23,26 +47,11 @@ p, span, alt, details, summary {
 }
 
 /* begin link things */
-a:link {
-  color: #631cc9;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: #9648ca;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:active {
-  color: paleturquoise;
-  background-color: transparent;
-  text-decoration: none;
-} 
-a:hover {
-  color: paleturquoise;
-  background-color: transparent;
-  text-decoration: none;
-} 
+a:link {color:#631cc9;background-color:transparent;text-decoration:none;} /* unclicked link */ 
+a:visited {color:#9648ca;background-color:transparent;text-decoration:none;} /* clicked link  */ 
+a:active {color:paleturquoise;background-color:transparent;text-decoration:none;} /* clicked link, havent released */ 
+a:hover {color: paleturquoise;background-color:transparent;text-decoration: none;} /* hovering over link */ 
+
 
 .f88x31 {
   image-rendering: pixelated;
@@ -55,7 +64,6 @@ a:hover {
   padding: 2px;
   border: 1px solid rgb(0, 0, 0);
 }
-/* end link thingies */ 
 
 .head { /* fancy things that get fully highlighted like headers and all that */ 
   font-family: Consolas;
@@ -70,23 +78,9 @@ a:hover {
 
 }
 
-.main { /* use this for like everything else */ 
-  font-family: Consolas;
-  color: #7d43f0; 
-  width:640px; 
-  margin-bottom:0px; 
-  margin-top:0px; 
-  border-left:3px solid #c96094;
-  padding-top:0px;
-  padding:5px; 
-  
-  
-}
-
-/*
+/* 
   .footnote {
     vertical-align: super; 
     font-size: 800%;
   }
-  
-  */ 
+*/ 
